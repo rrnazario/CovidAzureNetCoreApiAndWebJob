@@ -9,3 +9,10 @@
 /WebJobs.Core/bin/Debug
 /WebJobs.Core/obj/Debug
 /.vs/CovidStatus/v16
+/CovidStatus.Presentation/bin/Debug/netcoreapp3.1
+/CovidStatus.Presentation/obj
+/CovidStatus.Presentation/Properties
+/CovidStatus.WebJob/bin/Debug/net472
+/CovidStatus.WebJob/obj
+/CovidStatus.WebJob.Core/bin/Debug
+/CovidStatus.WebJob.Core/obj/Debug

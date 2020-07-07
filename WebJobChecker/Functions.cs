@@ -1,14 +1,9 @@
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
-using WebJobs.Core.Helpers;
-using WebJobs.Core.Model;
+using CovidStatus.WebJob.Core.Helpers;
+using CovidStatus.WebJob.Core.Model;
 
-namespace WebJobChecker
+namespace CovidStatus.WebJob
 {
     public class Functions
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace WebJobs.Core.Model
+namespace CovidStatus.WebJob.Core.Model
 {
     public class Covid
     {

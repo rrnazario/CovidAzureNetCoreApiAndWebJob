@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApiAndWebJob.Interfaces;
-using WebApiAndWebJob.Model;
+using CovidStatus.Presentation.Interfaces;
+using CovidStatus.Presentation.Model;
 
-namespace WebApiAndWebJob.Controllers
+namespace CovidStatus.Presentation.Controllers
 {
     [ApiController]
     [Route("[controller]")]

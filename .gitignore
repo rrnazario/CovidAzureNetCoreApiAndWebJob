@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WebApiAndWebJob/bin/Debug/netcoreapp3.1
+/WebApiAndWebJob/obj
+/WebJobChecker/bin/Debug/net472
+/WebJobChecker/obj
+/WebJobs.Core/bin/Debug
+/WebJobs.Core/obj/Debug
+/.vs/CovidStatus/v16

@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebJobs.Core.Helpers
+namespace CovidStatus.WebJob.Core.Helpers
 {
     public class HttpClientHelper
     {
@@ -22,4 +22,5 @@ namespace WebJobs.Core.Helpers
                 return JsonConvert.DeserializeObject<T>(content);
             }
         }
+    }
 }

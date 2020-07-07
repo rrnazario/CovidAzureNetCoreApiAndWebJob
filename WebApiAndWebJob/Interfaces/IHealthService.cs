@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WebApiAndWebJob.Model;
+﻿using CovidStatus.Presentation.Model;
 
-namespace WebApiAndWebJob.Interfaces
+namespace CovidStatus.Presentation.Interfaces
 {
     public interface IHealthService
     {

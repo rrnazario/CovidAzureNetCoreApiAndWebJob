@@ -1,6 +1,6 @@
 using System;
 
-namespace WebApiAndWebJob.Model
+namespace CovidStatus.Presentation.Model
 {
     public class Covid
     {

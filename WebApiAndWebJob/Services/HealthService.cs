@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApiAndWebJob.Interfaces;
-using WebApiAndWebJob.Model;
+using CovidStatus.Presentation.Interfaces;
+using CovidStatus.Presentation.Model;
 
-namespace WebApiAndWebJob.Services
+namespace CovidStatus.Presentation.Services
 {
     public class HealthService : IHealthService
     {

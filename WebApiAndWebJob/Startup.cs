@@ -1,19 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using CovidStatus.Presentation.Interfaces;
+using CovidStatus.Presentation.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using WebApiAndWebJob.Interfaces;
-using WebApiAndWebJob.Services;
 
-namespace WebApiAndWebJob
+namespace CovidStatus.Presentation
 {
     public class Startup
     {
@@ -29,7 +22,7 @@ namespace WebApiAndWebJob
         {
             services.AddControllers();
 
-            services.AddScoped<IHealthService, HealthService>(s => new HealthService());
+            services.AddScoped<IHealthService, HealthService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

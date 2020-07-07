@@ -22,6 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebJobs.Core\WebJobs.Core.csproj" />
+    <ProjectReference Include="..\WebJobs.Core\CovidStatus.WebJob.Core.csproj" />
   </ItemGroup>
 </Project>
